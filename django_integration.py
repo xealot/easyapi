@@ -5,8 +5,8 @@ import inspect, re
 from core import RequestHandler
 from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 from django.shortcuts import _get_queryset
-from easyrpc.core import MethodContainer
-from easyrpc.exceptions import APIFault
+from core import MethodContainer
+from exceptions import APIFault
 from translation.plain import PlainTranslator
 from django.http import HttpResponse
 from django.db.models.query import QuerySet, ValuesListQuerySet, ValuesQuerySet
